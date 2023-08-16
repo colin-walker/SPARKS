@@ -30,7 +30,7 @@ if (!empty($pages)) {
   	<link rel="icon" type="image/svg" href="lightning.svg">
   	
   	<script src="htmx.min.js"></script>
-  	<script src="jquery-3.6.0.min.js"></script>
+  	<script src="jquery-3.7.0.min.js"></script>
   	
 </head>
 <body onload="placeCaret()">
