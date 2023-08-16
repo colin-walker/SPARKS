@@ -24,3 +24,7 @@ Sparks uses jQuery and HTMX (latest versions included at time of publishing) so 
 ## TRY IT OUT
 
 There is a publically available version of [SPARKS](https://sparks.colinwalker.blog/) 👈 that anyone can try. I reserve the right to clear out any and all 'sparks' without notice. There is no login system on the public version so play nice or I may be forced to change that.
+
+## WARNING!
+
+This is solely the most basic implementation of SPARKS and does not include any security except for an example .htaccess file preventing unwanted access to the .txt files in /pages/. It should not be deployed 'as is' and requires you to integrate your own authentication system or other security.
