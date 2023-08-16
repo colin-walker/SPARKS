@@ -19,7 +19,7 @@ If used on mobile, the vault and new buttons will not be visible. Instead, you s
 
 ## THE TECHIE BIT
 
-Sparks uses jQuery and HTMX so that everything happens within the context of a single page (making AJAX calls out to the bits that do the work.)
+Sparks uses jQuery and HTMX (latest versions included at time of publishing) so that everything happens within the context of a single page (making AJAX calls out to the bits that do the work.)
 
 ## TRY IT OUT
 
