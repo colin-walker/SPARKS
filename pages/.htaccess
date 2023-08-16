@@ -1,0 +1,4 @@
+<FilesMatch "^.*\.txt$">
+  Deny from all
+  Allow from localhost
+</FilesMatch>
