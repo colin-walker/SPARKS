@@ -3,7 +3,7 @@
 
 ## What is SPARKS?
 
-SPARKS is a simple file editor for creating, editing, exporting '[spark files](https://medium.com/the-writers-room/the-spark-file-8d6e7df7ae58)'. It allows for multiple files which can be archived to, and retrieved from, a vault.
+SPARKS is a simple file editor for creating, editing, exporting '[spark files](https://medium.com/the-writers-room/the-spark-file-8d6e7df7ae58)'. It allows for multiple files which can be archived to, and retrieved from, a vault. A video of the MVP version can be seen [here](https://colinwalker.blog/blog/?date=2023-08-10#p1).
 
 Sparks are stored as, and be exported to, plain .txt files so can be used anywhere.
 
