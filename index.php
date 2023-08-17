@@ -62,9 +62,7 @@ if (!empty($pages)) {
 	        <header id="masthead" class="site-header">
 	            <div class="site-branding">
 	                <h1 class="site-title">
-	                    <a href="<?php echo BASE_URL; ?>" rel="home">
 	                        <span class="p-name">Sparks</span>
-	                    </a>
 	                </h1>
 	            </div>
 	        </header>
