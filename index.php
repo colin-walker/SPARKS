@@ -244,7 +244,13 @@ if (!empty($pages)) {
 						});
 					}, "text");
 					
-					textarea.style.height = textarea.scrollHeight + "px";
+					setTimeout( function() {
+						textarea.style.height = textarea.scrollHeight + "px";
+						textarea.focus();
+						areaLen = textarea.value.length;
+						textarea.setSelectionRange(areaLen, areaLen);
+						textarea.scrollTop = textarea.scrollHeight;
+					}, 10);
 					document.getElementById("list").scrollLeft = 0;
 					document.getElementById("list").innerHTML = "";
 				
