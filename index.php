@@ -244,6 +244,7 @@ if (!empty($pages)) {
 						});
 					}, "text");
 					
+					textarea.style.height = textarea.scrollHeight + "px";
 					document.getElementById("list").scrollLeft = 0;
 					document.getElementById("list").innerHTML = "";
 				
