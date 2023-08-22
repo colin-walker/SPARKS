@@ -183,8 +183,8 @@ if (!empty($pages)) {
 						var content = $("#content").val();
 												
 						$.post("sparkUpdate.php", {
-						    "page" : "${pageName}",
-						    "content" : "${content}",
+						    "page" : pageName,
+						    "content" : content,
 						    "update" : "yes"
 						});
 						
@@ -203,8 +203,8 @@ if (!empty($pages)) {
 						var content = $("#content").val();
 						$.post("sparkUpdate.php",
 						  {
-						    "page" : "${pageName}",
-						    "content" : "${content}",
+						    "page" : pageName,
+						    "content" : content,
 						    "update" : "yes"
 						  });
 						  
@@ -281,7 +281,8 @@ if (!empty($pages)) {
 				const v = document.getElementById("vault");
 
 				function show() {
-					htmx.ajax("GET", "refresh.php?p="+pageName.value, "#list");
+					var pageName = $("#pageName").val();
+					htmx.ajax("GET", "refresh.php?p="+pageName, "#list");
 					v.showModal();
 				}
 				
